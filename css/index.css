@@ -1,0 +1,101 @@
+/* Reset e configurações básicas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #000000;
+}
+
+/* Cabeçalho */
+header {
+    background: #653ab6;
+    padding: 15px 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero (parte inicial) */
+.hero {
+    height: 90vh;
+    background: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero span {
+    color: #9d8df7;
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #5900ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Seções */
+.sessao {
+    padding: 60px 30px;
+}
+
+.sessao h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #824fe0;
+}
+
+/* Projetos */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(85, 85, 85, 0.2);
+}
+
+/* Rodapé */
+footer {
+    background: #763ec0;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
